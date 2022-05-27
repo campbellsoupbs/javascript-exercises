@@ -1,4 +1,11 @@
-const reverseString = function() {
+const reverseString = function(string) {
+    const stringList = []
+    
+    for (const x of string) {stringList.push(x)}
+    
+    stringList.reverse();
+    let output = stringList.join('');
+    return output;
 
 };
 
